@@ -1,0 +1,83 @@
+
+
+@font-face {
+  font-family: 'Elegance';
+  a#logo . { font-family: Elegance; }
+  src: url('fonts/Rounded_Elegance.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Rounded_Elegance.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Rounded_Elegance.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Rounded_Elegance.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Rounded_Elegance.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Rounded_Elegance.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+ a#page{ 
+ font-family: Elegance; font-size: 13pt
+ }
+
+ /* Global LINK Color 
+ a:link{
+  color:#a8ff00;
+}
+a:visited{
+  color:#a8ff00;
+}
+a:hover{
+  color:00bcff;
+}
+a:focus{
+  color:#a8ff00;
+}
+a:active{
+  color:#a8ff00;
+} */
+
+ /* Override LINK Color */
+a{
+  color:#a8ff00;
+}
+
+ .movefootericon{
+ position: relative; top: 30px; 
+ }
+ 
+body {
+  padding: 0px 0px 1px 0px; 
+  margin:auto;
+  width: 100%;
+  min-width: 320px;
+  font-family: Elegance, Helvetica Neue, Helvetica, Arial, sans-serif; /* Global Font type */
+}
+
+.top-container {
+  padding: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.header {
+  padding: 22px 0px 0px 0px;
+  text-align: center;
+  transform: translate3d(0,0,0); /* StickyBar iOS Bug Fix */
+}
+
+.content {
+  word-wrap: break-word;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 0px;
+}
+
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90vh;
+}
