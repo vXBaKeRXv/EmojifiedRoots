@@ -37,8 +37,15 @@ a{
 }
 
  .movefootericon{
- position: relative; top: 30px; 
+ position: relative; top: 12px; 
  }
+ 
+hr {
+    height: 1.2px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: none;
+}
  
 body {
   padding: 0px 0px 1px 0px; 
@@ -66,13 +73,13 @@ body {
 
 .sticky {
   position: fixed;
-  top: 0;
+  top: 0.24;
   width: 100%;
 
 }
 
 .sticky + .content {
-  padding-top: 0px;
+  padding-top: 24px;
 }
 
 img {
@@ -89,6 +96,7 @@ img {
   border: none;
   outline: none;
   border-radius: 10%;
+  font-family: Elegance, Helvetica Neue, Helvetica, Arial, sans-serif; /* Global Font type */
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
