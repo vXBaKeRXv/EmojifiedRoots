@@ -36,6 +36,37 @@ a{
   color:#a8ff00;
 }
 
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: transparent;
+    color: #a8ff00;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: transparent;
+    color: #a8ff00;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: transparent;
+    color: #a8ff00;
+}
+
+::-ms-selection {
+    background-color: transparent;
+    color: #a8ff00;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: transparent;
+    color: #a8ff00;
+}
+
+
  .movefootericon{
  position: relative; top: 12px; 
  }
